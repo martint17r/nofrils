@@ -169,10 +169,10 @@ function! NofrilsNormal()
         hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
     end
     if g:nofrils_heavycomments
-        hi Comment term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+        hi Comment term=NONE cterm=NONE ctermfg=72 ctermbg=NONE gui=NONE guifg=#5FAF87 guibg=NONE
     end
     if g:nofrils_heavylinenumbers
-        hi LineNr term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+        hi LineNr term=NONE cterm=NONE ctermfg=72 ctermbg=NONE gui=NONE guifg=#5FAF87 guibg=NONE
     end
 endfunction
 
